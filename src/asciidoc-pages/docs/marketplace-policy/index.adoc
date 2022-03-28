@@ -67,7 +67,7 @@ https://www.eclipse.org/legal/documents/eclipse-adoptium-marketplace-publisher-a
 and comply with all the obligations thereof.
 
 Products that meet these requirements are eligible to be listed in the marketplace. To be listed, the Producer should
-https://github.com/adoptium/adoptium/issues/new[open a request with the Adoptium Working Group^]
+https://github.com/adoptium/adoptium/issues/new?labels=marketplace%2Cpublisher&template=marketplace_list_new_publisher.yml&title=%5BMarketplace%5D%3A+[open a request with the Adoptium Working Group^]
 seeking inclusion as a Producer in the marketplace.
 
 Changes to this policy are made by the
