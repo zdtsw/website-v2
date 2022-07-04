@@ -28,10 +28,11 @@ const TemurinReleases = () => (
             </div>
             <div className='col-12 col-sm-6 col-md-8'>
               <p className='text-start'>
-                Eclipse Temurin is the open source Java SE build based upon OpenJDK.
-                Temurin is available for a <a href='/supported-platforms'>wide range of platforms</a> and Java SE versions.
-                The latest releases recommended for use in production are listed below, and are regularly <a href='/support'>updated and supported</a> by the Adoptium community. Migration help, container images and package installation guides are available in the <a href='/docs'>documentation section</a>.
-                You can read the <a href='https://foojay.io/java-17/?tab=component' target='_blank' rel='noreferrer'>Release Notes</a> for each version thanks to our friends at Foojay.io!
+                <Trans i18nKey='release.intro'>Eclipse Temurin is the open source Java SE build based upon OpenJDK.
+                  Temurin is available for a <a href='/supported-platforms'>wide range of platforms</a> and Java SE versions.
+                  The latest releases recommended for use in production are listed below, and are regularly <a href='/support'>updated and supported</a> by the Adoptium community. Migration help, container images and package installation guides are available in the <a href='/docs'>documentation section</a>.
+                  You can read the <a href='https://foojay.io/java-17/?tab=component' target='_blank' rel='noreferrer'>Release Notes</a> for each version thanks to our friends at Foojay.io!
+                </Trans>
               </p>
             </div>
           </div>
@@ -39,14 +40,14 @@ const TemurinReleases = () => (
       </div>
       <div className='row align-items-center pt-3'>
         <p className='text-center'>
-          Use the drop-down boxes below to filter the list of current releases.
+          <Trans i18nKey='release.dropdown'>Use the drop-down boxes below to filter the list of current releases.</Trans>
         </p>
       </div>
       <DownloadDropdowns updaterAction={loadLatestAssets} marketplace={false} Table={DownloadTable} />
       <ChecksumModal />
       <div className='row align-items-center pt-3'>
         <p className='text-center'>
-          Previous releases are available in the Temurin archive.
+          <Trans i18nKey='release.archive'>Previous releases are available in the Temurin archive.</Trans>
         </p>
         <div className='btn-group-vertical col-6 mx-auto'>
           <Link to='/temurin/archive' className='btn btn btn-primary mt-3'>
