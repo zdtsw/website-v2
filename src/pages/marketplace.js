@@ -8,15 +8,7 @@ import DownloadDropdowns from '../components/DownloadDropdowns'
 import DownloadTable from '../components/MarketplaceDownloadTable'
 import { getAllPkgsForVersion } from '../hooks'
 import ChecksumModal from '../components/ChecksumModal'
-
-const LinkText = ({ href, children }) => {
-  console.log(href)
-  return (
-    <Link to={href || ''}>
-      {children}
-    </Link>
-  )
-}
+import LinkText from '../components/LinkText'
 
 const DownloadPage = () => (
   <Layout>

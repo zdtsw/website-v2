@@ -8,6 +8,7 @@ import Seo from '../../components/Seo'
 import DownloadDropdowns from '../../components/DownloadDropdowns'
 import DownloadTable from '../../components/TemurinDownloadTable'
 import ChecksumModal from '../../components/ChecksumModal'
+import LinkText from '../../components/LinkText'
 import { loadLatestAssets } from '../../hooks'
 
 const TemurinReleases = () => (
@@ -28,11 +29,14 @@ const TemurinReleases = () => (
             </div>
             <div className='col-12 col-sm-6 col-md-8'>
               <p className='text-start'>
-                <Trans i18nKey='release.intro'>Eclipse Temurin is the open source Java SE build based upon OpenJDK.
-                  Temurin is available for a <a href='/supported-platforms'>wide range of platforms</a> and Java SE versions.
-                  The latest releases recommended for use in production are listed below, and are regularly <a href='/support'>updated and supported</a> by the Adoptium community. Migration help, container images and package installation guides are available in the <a href='/docs'>documentation section</a>.
-                  You can read the <a href='https://foojay.io/java-17/?tab=component' target='_blank' rel='noreferrer'>Release Notes</a> for each version thanks to our friends at Foojay.io!
-                </Trans>
+                <Trans
+                  i18nKey='release.intro' components={{
+                    supportedPlatformsLink: <LinkText href='/supported-platforms' />,
+                    supportLink: <LinkText href='/support' />,
+                    docsLink: <LinkText href='/docs' />,
+                    foojayLink: <LinkText href='https://foojay.io/java-17/?tab=component' />
+                  }}
+                />
               </p>
             </div>
           </div>
