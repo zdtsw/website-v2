@@ -40,7 +40,7 @@ const TemurinReleases = () => (
       </div>
       <div className='row align-items-center pt-3'>
         <p className='text-center'>
-          <Trans i18nKey='release.dropdown'>Use the drop-down boxes below to filter the list of current releases.</Trans>
+          <Trans>Use the drop-down boxes below to filter the list of current releases.</Trans>
         </p>
       </div>
       <DownloadDropdowns updaterAction={loadLatestAssets} marketplace={false} Table={DownloadTable} />
