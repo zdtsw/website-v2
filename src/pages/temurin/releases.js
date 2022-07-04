@@ -47,7 +47,7 @@ const TemurinReleases = () => (
       <ChecksumModal />
       <div className='row align-items-center pt-3'>
         <p className='text-center'>
-          <Trans i18nKey='release.archive'>Previous releases are available in the Temurin archive.</Trans>
+          <Trans>Previous releases are available in the Temurin archive.</Trans>
         </p>
         <div className='btn-group-vertical col-6 mx-auto'>
           <Link to='/temurin/archive' className='btn btn btn-primary mt-3'>
