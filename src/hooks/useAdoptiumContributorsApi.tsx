@@ -73,19 +73,21 @@ async function getMaxContributors(): Promise<[number, number]> {
  * @param randomPage
  */
 async function getContributor(randomPage: number): Promise<Contributor> {
-  const response = await fetch(`${CONTRIBUTORS_API_URI}&page=${randomPage}`);
-  const responseJsonData = await response.json()
-  if ( responseJsonData.type == "User" ) {
-    const contributor = responseJsonData.id as ContributorApiResponse;
-    return {
-      avatarUri: contributor.avatar_url,
-      commitsListUri: `https://github.com/adoptium/${repoToCheck}/commits?author=${contributor.login}`,
-      repo: repoToCheck,
-      contributionsCount: contributor.contributions,
-      login: contributor.login,
-      profileUri: contributor.html_url,
-    };
-  }
+  let responseJsonData: any = {};
+  do {
+    let response = await fetch(`${CONTRIBUTORS_API_URI}&page=${randomPage}`);
+    responseJsonData = await response.json();
+  } while (responseJsonData.type != "User")
+
+  const contributor = responseJsonData.id as ContributorApiResponse;
+  return {
+    avatarUri: contributor.avatar_url,
+    commitsListUri: `https://github.com/adoptium/${repoToCheck}/commits?author=${contributor.login}`,
+    repo: repoToCheck,
+    contributionsCount: contributor.contributions,
+    login: contributor.login,
+    profileUri: contributor.html_url,
+  };
 }
 
 /**
