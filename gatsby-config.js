@@ -33,6 +33,7 @@ module.exports = {
         localeJsonSourceName: 'locale',
         languages: ['en', 'en-GB', 'es', 'de', 'zh-CN'],
         defaultLanguage: 'en',
+        fallbackLanguage: 'en',
         i18nextOptions: {
           transSupportBasicHtmlNodes: true,
           transKeepBasicHtmlNodesFor: ['u', 'a']

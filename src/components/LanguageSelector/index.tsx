@@ -16,8 +16,8 @@ const LanguageSelector = (): JSX.Element => {
     switch(lng) {
       case 'en':
         return 'us';
-        case 'en-GB':
-          return 'gb';
+      case 'en-GB':
+        return 'gb';
       case 'zh-CN':
         return 'cn';
       default:
