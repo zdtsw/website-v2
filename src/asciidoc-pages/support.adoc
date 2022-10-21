@@ -105,13 +105,3 @@ actively maintained.
 
 ^[2]^ End of Service/Support Life - this code stream is no longer being
 maintained. No further builds of Eclipse Temurin are planned.
-
-
-removed
-# Certificate "Camerfirma Global Chambersign Root"
-
-add
-# Certificate "DIGITALSIGN GLOBAL ROOT RSA CA"
-# Certificate "DIGITALSIGN GLOBAL ROOT ECDSA CA"
-# Certificate "Security Communication RootCA3"
-# Certificate "Security Communication ECC RootCA1"
