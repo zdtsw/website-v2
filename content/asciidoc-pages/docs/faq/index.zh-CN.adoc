@@ -28,6 +28,7 @@ Linux 安装程序包RPM/DEB可在 packages.adoptium.net 中获得。 更多信�
 == 如何提供对这个项目的支持？
 
 Adoptium 团队对各种不同方式的支持表示欢迎。 例如：
+
 * 任何人都可以赞助资金使项目顺利运行，可以通过 https://www.eclipse.org/donate/adoptium/[一次性捐赠] 或通过 link:/sponsors[项目赞助]的链接。
 * 我们鼓励任何依赖 Adoptium 的组织加入 link:/members[Adoptium 工作组] 并在项目发展方向上发表意见。
 * 我们欢迎技术和创意支持，例如通过推广和营销来推进我们的目标； 写关于您对 Adoptium 的体验博客；回答我们 link:/slack[Slack 社区]的问题,
@@ -54,7 +55,7 @@ https://github.com/adoptium/adoptium-support/issues/new/choose[请求支持]，�
 
 == Temurin 能用我最喜欢的 Docker 镜像来交付吗？
 
-我们有一组 https://hub.docker.com/_/eclipse-temurin[ Docker 官方存储库] 来确保我们对含 Temurin 的新镜像的做出及时响应。
+我们有一组 https://hub.docker.com/_/eclipse-temurin[ Docker 官方存储库] 来确保我们对含 Temurin 的新镜像做出及时响应。
 Docker 与 Adoptium 合作，由他们来决定为 Temurin 提供哪些操作系统容器版本的支持。
 
 对于那些想使用我们不提供的容器化 Linux 发行版的用户，可以查看这些 https://adoptium.net/blog/2021/08/using-jlink-in-dockerfiles/[
@@ -64,12 +65,12 @@ Docker 与 Adoptium 合作，由他们来决定为 Temurin 提供哪些操作系
 
 Docker Hub 上的 https://hub.docker.com/_/eclipse-temurin[Temurin container images] 是我们的 https://docs.docker.com/docker-hub/official_images/[官方镜像]
 它们由Adoptium 项目和 Docker, Inc. 共同来建立和维护。 
-Adoptium 创建、维护并测试广泛的 https://github.com/adoptium/containers[Temurin 镜像源文件] 然后被由
+Adoptium 创建、维护并测试广泛的 https://github.com/adoptium/containers[Temurin 镜像源文件] 然后交由
 https://github.com/docker-library/official-images/blob/master/library/eclipse-temurin[Docker] 来制作基于不同操作系统的官方镜像。
 
-为了在合理的时间内有效使用，Docker 努力确保 Temurin 镜像包含最新的安装包。
+为了在合理的时间段内安全使用，Docker 努力确保 Temurin 镜像包含最新的安装包。
 Docker 有自己的强大漏洞扫描程序，但是，第三方安全扫描程序可能仍会标记官方镜像的问题。 
-Docker 这可能在他们的常见问题解答中列出了 https://github.com/docker-library/faq#why-does-my-security-scanner-show-that-an-image-has-cves[解决的原因]
+这些可能已经在 Docker 的 https://github.com/docker-library/faq#why-does-my-security-scanner-show-that-an-image-has-cves[常见问答]中列出
 我们感谢 Docker 持续更新基础镜像并定期为我们重建官方镜像。
 我们乐意接受关于 https://hub.docker.com/_/eclipse-temurin[eclipse-temurin 镜像] 的 https://github.com/adoptium/adoptium-support/issues/new/choose[问题]
 但请注意在某些情况下，如问题本身与操作系统相关，我们会将问题转交给 Docker。
