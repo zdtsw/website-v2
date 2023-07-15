@@ -31,7 +31,7 @@ For more details, please visit the https://open-elements.com/temurin-support/[Op
 image:https://adoptium.net/images/redhat.svg[Red Hat,150]
 |
 https://www.redhat.com[红帽子] 长期以来一直是Java社区中公认的领导者, 并致力于通过开放的、社区驱动的创新推动Java的发展。
-Red Hat的客户可以通过订阅获得对关键的Java生产环境提供的24x7全球的Eclipse Temurin专业支持。
+Red Hat的客户可以通过订阅获得对关键的Java生产环境提供的24x7全球Eclipse Temurin专业支持。
 
 请访问 https://developers.redhat.com/java/red-hat-and-java?utm_source=adoptium[Red Hat & Java] 
 或者联系 https://www.redhat.com/contact?utm_source=adoptium[红帽子销售] 以获取更多信息
