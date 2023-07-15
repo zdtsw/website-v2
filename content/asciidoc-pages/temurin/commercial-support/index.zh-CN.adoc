@@ -1,4 +1,4 @@
-= Eclipse Temurin(TM)提供的商业支持选项
+= Commercial Support Options for Eclipse Temurin(TM)
 :page-authors: gdams, tellison, zdtsw
 
 对于Eclipse Temurin，我们提供多种商业支持选项。
