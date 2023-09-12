@@ -94,7 +94,7 @@ Adoptium提供了一个 https://api.adoptium.net/q/swagger-ui/[下载 API]，可
 使用API，您可以获取有关Temurin最新版本的信息，并将其加载到您的应用程序中。
 
 我们还在 https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#adoptium-api-cookbook[Adoptium API cookbook] 中提供了一个
-https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#example-three-scripting-a-download-using-the-adoptium-api [自动下载的示例]
+https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#example-three-scripting-a-download-using-the-adoptium-api[自动下载的示例]
 
 == 为何命名为"Eclipse Temurin"?
 
