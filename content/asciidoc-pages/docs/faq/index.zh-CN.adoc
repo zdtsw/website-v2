@@ -25,7 +25,7 @@ Linux 安装程序包RPM/DEB可在 packages.adoptium.net 中获得。 更多信�
 
 https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#example-two-linking-to-the-latest-jdk-or-jre[Adoptium API cookbook]
 包含了指向特定或最新的 Temurin JDK 和 JRE 的稳定链接示例。
-您还可以通过网站上提供的嵌入https://adoptium.net/en-GB/temurin/buttons/[按钮代码]来推广 Temurin。
+您还可以通过网站上提供的嵌入 https://adoptium.net/en-GB/temurin/buttons/[按钮代码] 来推广 Temurin。
 
 == Eclipse Temurin 可以免费使用吗？
 
@@ -93,8 +93,8 @@ https://github.com/adoptium/containers[Temurin 镜像源文件]在 GitHub 上进
 Adoptium提供了一个 https://api.adoptium.net/q/swagger-ui/[下载 API]，可用于自动下载预编译的Eclipse Temurin。
 使用API，您可以获取有关Temurin最新版本的信息，并将其加载到您的应用程序中。
 
-我们还在https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#adoptium-api-cookbook[Adoptium API cookbook] 中提供了一个
-https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#example-three-scripting-a-download-using-the-adoptium-api[自动下载的示例]
+我们还在 https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#adoptium-api-cookbook[Adoptium API cookbook] 中提供了一个
+https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc#example-three-scripting-a-download-using-the-adoptium-api [自动下载的示例]
 
 == 为何命名为"Eclipse Temurin"?
 
